@@ -1,0 +1,18 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center ;
+    height: 100vh;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+}
+.container{
+   height: 70px;
+   color: #3d3d3d;
+    background-color: #eeeeee83;
+ 
+}
+@media (max-width: 576px) {
+    .container {
+        height: 150px; }
+}
